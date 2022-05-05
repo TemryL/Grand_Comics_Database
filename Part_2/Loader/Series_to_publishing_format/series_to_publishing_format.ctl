@@ -1,6 +1,9 @@
-load data into table GCD_SERIES_TO_PUBLISHING_FORMAT
+load data 
+CHARACTERSET UTF8
+into table GCD_SERIES_TO_PUBLISHING_FORMAT
 insert 
 fields terminated by ","
+TRAILING NULLCOLS
 (
     SERIES_ID,
     PUBLISHING_FORMAT_ID

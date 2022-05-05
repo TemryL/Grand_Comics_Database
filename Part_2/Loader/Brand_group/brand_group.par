@@ -1,0 +1,5 @@
+CONTROL=brand_group.ctl
+LOG=brand_group.log
+BAD=brand_group.bad
+DATA=GCD_BRAND_GROUP.csv
+DIRECT=true

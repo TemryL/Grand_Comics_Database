@@ -1,6 +1,9 @@
-load data into table GCD_STORY_REPRINT
+load data 
+CHARACTERSET UTF8
+into table GCD_STORY_REPRINT
 insert 
 fields terminated by ","
+TRAILING NULLCOLS
 (
     ID,
     ORIGIN_ID,

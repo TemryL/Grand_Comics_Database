@@ -1,0 +1,70 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 18:32:10 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   story.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      GCD_STORY.txt
+  Bad File:     story.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table GCD_STORY, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   |       CHARACTER            
+TITLE                                NEXT   512   |       CHARACTER            
+FEATURE                              NEXT   512   |       CHARACTER            
+ISSUE_ID                             NEXT     *   |       CHARACTER            
+SCRIPT                               NEXT  2048   |       CHARACTER            
+PENCILS                              NEXT  2048   |       CHARACTER            
+INKS                                 NEXT  2048   |       CHARACTER            
+COLORS                               NEXT  2048   |       CHARACTER            
+LETTERS                              NEXT  2048   |       CHARACTER            
+EDITING                              NEXT  2048   |       CHARACTER            
+CHARACTERS                           NEXT  4000   |       CHARACTER            
+SYNOPSIS                             NEXT  4000   |       CHARACTER            
+REPRINT_NOTES                        NEXT  4000   |       CHARACTER            
+NOTES                                NEXT  4000   |       CHARACTER            
+TYPE_ID                              NEXT     *   |       CHARACTER            
+
+Record 1: Rejected - Error on table GCD_STORY, column ID.
+ORA-01722: invalid number
+
+
+Table GCD_STORY:
+  1875312 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :    5000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       1875313
+Total logical records rejected:         1
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:      611
+Total stream buffers loaded by SQL*Loader load thread:     1218
+
+Run began on Thu May 05 18:32:10 2022
+Run ended on Thu May 05 18:37:08 2022
+
+Elapsed time was:     00:04:58.12
+CPU time was:         00:00:04.50

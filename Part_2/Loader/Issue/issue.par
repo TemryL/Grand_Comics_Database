@@ -1,0 +1,5 @@
+CONTROL=issue.ctl
+LOG=issue.log
+BAD=issue.bad
+DATA=GCD_ISSUE.txt
+DIRECT=true

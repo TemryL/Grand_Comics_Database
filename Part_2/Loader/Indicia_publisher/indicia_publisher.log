@@ -1,0 +1,62 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 17:53:34 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   indicia_publisher.ctl
+Data File:      GCD_INDICIA_PUBLISHER.csv
+  Bad File:     indicia_publisher.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table GCD_INDICIA_PUBLISHER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+PUBLISHER_ID                         NEXT     *   ,       CHARACTER            
+COUNTRY_ID                           NEXT     *   ,       CHARACTER            
+YEAR_BEGAN                           NEXT     *   ,       CHARACTER            
+YEAR_ENDED                           NEXT     *   ,       CHARACTER            
+IS_SURROGATE                         NEXT     *   ,       CHARACTER            
+NOTES                                NEXT  4000   ,       CHARACTER            
+URL                                  NEXT     *   ,       CHARACTER            
+
+Record 1: Rejected - Error on table GCD_INDICIA_PUBLISHER, column ID.
+ORA-01722: invalid number
+
+
+Table GCD_INDICIA_PUBLISHER:
+  5249 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :    5000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          5250
+Total logical records rejected:         1
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:        2
+Total stream buffers loaded by SQL*Loader load thread:        1
+
+Run began on Thu May 05 17:53:34 2022
+Run ended on Thu May 05 17:53:37 2022
+
+Elapsed time was:     00:00:03.01
+CPU time was:         00:00:00.22
