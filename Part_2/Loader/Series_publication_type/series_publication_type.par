@@ -1,0 +1,5 @@
+CONTROL=series_publication_type.ctl
+LOG=series_publication_type.log
+BAD=series_publication_type.bad
+DATA=GCD_SERIES_PUBLICATION_TYPE.csv
+DIRECT=true

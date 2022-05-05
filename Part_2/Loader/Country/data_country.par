@@ -1,0 +1,5 @@
+CONTROL=data_country.ctl
+LOG=data_country.log
+BAD=data_country.bad
+DATA=STDDATA_COUNTRY.csv
+DIRECT=true

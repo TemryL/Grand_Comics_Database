@@ -1,0 +1,5 @@
+CONTROL=story_reprint.ctl
+LOG=story_reprint.log
+BAD=story_reprint.bad
+DATA=GCD_STORY_REPRINT.csv
+DIRECT=true
