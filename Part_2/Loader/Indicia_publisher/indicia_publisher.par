@@ -1,0 +1,5 @@
+CONTROL=indicia_publisher.ctl
+LOG=indicia_publisher.log
+BAD=indicia_publisher.bad
+DATA=GCD_INDICIA_PUBLISHER.csv
+DIRECT=true

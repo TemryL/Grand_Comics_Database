@@ -1,0 +1,5 @@
+CONTROL=story_to_genre.ctl
+LOG=story_to_genre.log
+BAD=story_to_genre.bad
+DATA=GCD_STORY_TO_GENRE.csv
+DIRECT=true

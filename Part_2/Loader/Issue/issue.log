@@ -1,0 +1,72 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 18:44:54 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   issue.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      GCD_ISSUE.txt
+  Bad File:     issue.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table GCD_ISSUE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   |       CHARACTER            
+EDITION_NUMBER                       NEXT     *   |       CHARACTER            
+SERIES_ID                            NEXT     *   |       CHARACTER            
+INDICIA_PUBLISHER_ID                 NEXT     *   |       CHARACTER            
+PUBLICATION_DATE                     NEXT     *   |       CHARACTER            
+PRICE                                NEXT     *   |       CHARACTER            
+CURRENCY                             NEXT     *   |       CHARACTER            
+PAGE_COUNT                           NEXT     *   |       CHARACTER            
+INDICIA_FREQUENCY                    NEXT     *   |       CHARACTER            
+EDITING                              NEXT  2048   |       CHARACTER            
+NOTES                                NEXT  4000   |       CHARACTER            
+ISBN                                 NEXT     *   |       CHARACTER            
+VALID_ISBN                           NEXT     *   |       CHARACTER            
+BARCODE                              NEXT     *   |       CHARACTER            
+TITLE                                NEXT     *   |       CHARACTER            
+ON_SALE_DATE                         NEXT     *   |       CHARACTER            
+RATING                               NEXT     *   |       CHARACTER            
+
+Record 1: Rejected - Error on table GCD_ISSUE, column ID.
+ORA-01722: invalid number
+
+
+Table GCD_ISSUE:
+  1469599 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :    5000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:       1469600
+Total logical records rejected:         1
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:      336
+Total stream buffers loaded by SQL*Loader load thread:      113
+
+Run began on Thu May 05 18:44:54 2022
+Run ended on Thu May 05 18:45:43 2022
+
+Elapsed time was:     00:00:49.62
+CPU time was:         00:00:01.62

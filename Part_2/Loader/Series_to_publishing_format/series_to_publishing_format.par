@@ -1,0 +1,5 @@
+CONTROL=series_to_publishing_format.ctl
+LOG=series_to_publishing_format.log
+BAD=series_to_publishing_format.bad
+DATA=GCD_SERIES_TO_PUBLISHING_FORMAT.csv
+DIRECT=true
