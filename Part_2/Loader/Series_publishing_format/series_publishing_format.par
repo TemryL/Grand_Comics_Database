@@ -1,5 +1,0 @@
-CONTROL=series_publishing_format.ctl
-LOG=series_publishing_format.log
-BAD=series_publishing_format.bad
-DATA=GCD_SERIES_PUBLISHING_FORMAT.csv
-DIRECT=true

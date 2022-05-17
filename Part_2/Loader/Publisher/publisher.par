@@ -1,5 +1,0 @@
-CONTROL=publisher.ctl
-LOG=publisher.log
-BAD=publisher.bad
-DATA=GCD_PUBLISHER.csv
-DIRECT=true

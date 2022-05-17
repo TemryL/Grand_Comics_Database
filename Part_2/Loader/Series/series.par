@@ -1,5 +1,0 @@
-CONTROL=series.ctl
-LOG=series.log
-BAD=series.bad
-DATA=GCD_SERIES.txt
-DIRECT=true

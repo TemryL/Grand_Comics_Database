@@ -1,5 +1,0 @@
-CONTROL=data_language.ctl
-LOG=data_language.log
-BAD=data_language.bad
-DATA=STDDATA_LANGUAGE.csv
-DIRECT=true

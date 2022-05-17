@@ -1,5 +1,0 @@
-CONTROL=issue_reprint.ctl
-LOG=issue_reprint.log
-BAD=issue_reprint.bad
-DATA=GCD_ISSUE_REPRINT.csv
-DIRECT=true

@@ -1,5 +1,0 @@
-CONTROL=story.ctl
-LOG=story.log
-BAD=story.bad
-DATA=GCD_STORY.txt
-DIRECT=true

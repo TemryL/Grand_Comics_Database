@@ -1,5 +1,0 @@
-CONTROL=story_type.ctl
-LOG=story_type.log
-BAD=story_type.bad
-DATA=GCD_STORY_TYPE.csv
-DIRECT=true
