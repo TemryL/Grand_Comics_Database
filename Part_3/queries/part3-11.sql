@@ -1,4 +1,4 @@
-SELECT S.TITLE, Reprint_count
+SELECT S.TITLE AS Story_Title, Reprint_count
 FROM GCD_STORY S, (
     SELECT S.ID, COUNT(*) AS Reprint_count
     FROM GCD_STORY S, GCD_STORY_REPRINT SR
@@ -7,4 +7,4 @@ FROM GCD_STORY S, (
     HAVING COUNT(*)>=30
     ORDER BY Reprint_count DESC
 ) ID_TO_COUNT
-WHERE S.ID=ID_TO_COUNT.ID
+WHERE S.ID=ID_TO_COUNT.ID;

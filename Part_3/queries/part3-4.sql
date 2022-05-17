@@ -1,4 +1,4 @@
-SELECT BG.NAME, Count_Belgian_IP
+SELECT BG.NAME AS Brand_Group_Name, Count_Belgian_IP AS Largest_Number_of_Belgian_Indicia_Publishers
 FROM GCD_BRAND_GROUP BG, (
     SELECT BG.ID AS BG_ID, COUNT(*) AS Count_Belgian_IP
     FROM GCD_INDICIA_PUBLISHER IP, STDDATA_COUNTRY C, GCD_BRAND_GROUP BG

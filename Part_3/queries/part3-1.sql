@@ -1,4 +1,4 @@
-SELECT P.NAME, Series_Language_Count
+SELECT P.NAME AS Publisher_Name, Series_Language_Count
 FROM GCD_PUBLISHER P, (
     SELECT PUBLISHER_ID, COUNT(DISTINCT LANGUAGE_ID) AS Series_Language_Count
     FROM (
@@ -12,4 +12,3 @@ FROM GCD_PUBLISHER P, (
     GROUP BY PUBLISHER_ID
 )
 WHERE P.ID=PUBLISHER_ID;
-
