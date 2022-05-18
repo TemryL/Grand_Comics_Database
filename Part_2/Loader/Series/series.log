@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 18:39:33 2022
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed May 18 12:17:10 2022
 Version 19.3.0.0.0
 
 Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
@@ -65,8 +65,8 @@ Total logical records discarded:        0
 Total stream buffers loaded by SQL*Loader main thread:       30
 Total stream buffers loaded by SQL*Loader load thread:       44
 
-Run began on Thu May 05 18:39:33 2022
-Run ended on Thu May 05 18:39:47 2022
+Run began on Wed May 18 12:17:10 2022
+Run ended on Wed May 18 12:17:17 2022
 
-Elapsed time was:     00:00:13.84
-CPU time was:         00:00:00.39
+Elapsed time was:     00:00:07.11
+CPU time was:         00:00:00.37

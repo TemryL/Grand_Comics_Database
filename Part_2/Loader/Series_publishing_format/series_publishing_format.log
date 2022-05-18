@@ -1,10 +1,12 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 13:54:05 2022
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed May 18 12:18:39 2022
 Version 19.3.0.0.0
 
 Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   series_publishing_format.ctl
+Character Set UTF8 specified for all input.
+
 Data File:      GCD_SERIES_PUBLISHING_FORMAT.csv
   Bad File:     series_publishing_format.bad
   Discard File:  none specified
@@ -19,6 +21,7 @@ Path used:      Direct
 
 Table GCD_SERIES_PUBLISHING_FORMAT, loaded from every logical record.
 Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
 
    Column Name                  Position   Len  Term Encl Datatype
 ------------------------------ ---------- ----- ---- ---- ---------------------
@@ -47,8 +50,8 @@ Total logical records discarded:        0
 Total stream buffers loaded by SQL*Loader main thread:        1
 Total stream buffers loaded by SQL*Loader load thread:        0
 
-Run began on Thu May 05 13:54:05 2022
-Run ended on Thu May 05 13:54:06 2022
+Run began on Wed May 18 12:18:39 2022
+Run ended on Wed May 18 12:18:41 2022
 
-Elapsed time was:     00:00:00.89
-CPU time was:         00:00:00.14
+Elapsed time was:     00:00:02.18
+CPU time was:         00:00:00.17

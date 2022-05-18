@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 18:44:54 2022
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed May 18 12:13:47 2022
 Version 19.3.0.0.0
 
 Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
@@ -46,6 +46,8 @@ RATING                               NEXT     *   |       CHARACTER
 Record 1: Rejected - Error on table GCD_ISSUE, column ID.
 ORA-01722: invalid number
 
+The following index(es) on table GCD_ISSUE were processed:
+index C##DB2022_G40.INDEX_NAME loaded successfully with 428462 keys
 
 Table GCD_ISSUE:
   1469599 Rows successfully loaded.
@@ -65,8 +67,8 @@ Total logical records discarded:        0
 Total stream buffers loaded by SQL*Loader main thread:      336
 Total stream buffers loaded by SQL*Loader load thread:      113
 
-Run began on Thu May 05 18:44:54 2022
-Run ended on Thu May 05 18:45:43 2022
+Run began on Wed May 18 12:13:47 2022
+Run ended on Wed May 18 12:14:33 2022
 
-Elapsed time was:     00:00:49.62
-CPU time was:         00:00:01.62
+Elapsed time was:     00:00:45.97
+CPU time was:         00:00:01.55

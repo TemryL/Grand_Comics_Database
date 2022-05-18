@@ -1,10 +1,12 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 17:53:34 2022
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed May 18 12:13:19 2022
 Version 19.3.0.0.0
 
 Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   indicia_publisher.ctl
+Character Set UTF8 specified for all input.
+
 Data File:      GCD_INDICIA_PUBLISHER.csv
   Bad File:     indicia_publisher.bad
   Discard File:  none specified
@@ -55,8 +57,8 @@ Total logical records discarded:        0
 Total stream buffers loaded by SQL*Loader main thread:        2
 Total stream buffers loaded by SQL*Loader load thread:        1
 
-Run began on Thu May 05 17:53:34 2022
-Run ended on Thu May 05 17:53:37 2022
+Run began on Wed May 18 12:13:19 2022
+Run ended on Wed May 18 12:13:21 2022
 
-Elapsed time was:     00:00:03.01
-CPU time was:         00:00:00.22
+Elapsed time was:     00:00:01.64
+CPU time was:         00:00:00.15

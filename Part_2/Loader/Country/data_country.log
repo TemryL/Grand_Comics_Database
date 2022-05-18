@@ -1,10 +1,12 @@
 
-SQL*Loader: Release 19.0.0.0.0 - Production on Thu May 5 14:11:26 2022
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed May 18 12:12:46 2022
 Version 19.3.0.0.0
 
 Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   data_country.ctl
+Character Set UTF8 specified for all input.
+
 Data File:      STDDATA_COUNTRY.csv
   Bad File:     data_country.bad
   Discard File:  none specified
@@ -19,6 +21,7 @@ Path used:      Direct
 
 Table STDDATA_COUNTRY, loaded from every logical record.
 Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
 
    Column Name                  Position   Len  Term Encl Datatype
 ------------------------------ ---------- ----- ---- ---- ---------------------
@@ -48,8 +51,8 @@ Total logical records discarded:        0
 Total stream buffers loaded by SQL*Loader main thread:        1
 Total stream buffers loaded by SQL*Loader load thread:        0
 
-Run began on Thu May 05 14:11:26 2022
-Run ended on Thu May 05 14:11:26 2022
+Run began on Wed May 18 12:12:46 2022
+Run ended on Wed May 18 12:12:48 2022
 
-Elapsed time was:     00:00:00.75
-CPU time was:         00:00:00.14
+Elapsed time was:     00:00:01.56
+CPU time was:         00:00:00.24
