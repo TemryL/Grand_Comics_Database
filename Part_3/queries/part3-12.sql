@@ -4,7 +4,7 @@ SELECT C.NAME AS Country_Name,
 FROM STDDATA_COUNTRY C, (
     SELECT COUNTRY_ID, 
         MAX(Publishing_period) AS Max_years, 
-        AVG(Publishing_period) AS Average_years
+        ROUND(AVG(Publishing_period), 4) AS Average_years
     FROM (
         SELECT COUNTRY_ID, YEAR_ENDED-YEAR_BEGAN AS Publishing_period
         FROM GCD_PUBLISHER
