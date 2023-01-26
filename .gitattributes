@@ -1,4 +1,6 @@
 *.ipynb linguist-vendored
+*.txt linguist-vendored
+*.csv linguist-vendored
 *.csv filter=lfs diff=lfs merge=lfs -text
 Part_2/Data/GCD_ISSUE.txt filter=lfs diff=lfs merge=lfs -text
 Part_2/Data/GCD_STORY.txt filter=lfs diff=lfs merge=lfs -text
